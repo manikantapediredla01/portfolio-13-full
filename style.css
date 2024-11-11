@@ -1,0 +1,156 @@
+body {
+    color: white;
+ background-image: url(https://res.cloudinary.com/djg4w9ib6/image/upload/fl_preserve_transparency/v1731227595/background_for_portfolio_llkax5.jpg?_s=public-apps);
+}
+.tot-web {
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 300px;
+    gap: 100px;
+    height: 60px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    button {
+        font-size: 25px;
+        outline: none;
+        background-color:transparent;
+        color: white;
+        
+        border-radius: 10px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    
+}
+.home {
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+}
+.home-left {
+    width: 50%;
+    background-color: transparent;
+    border-radius: 30px;
+}
+.home-right {
+    height: 100%;
+    width: 50%;
+    padding-left: 30px;
+    background-color: transparent;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-right: 50px;
+    }
+
+.my-image {
+    height: 80%;
+    width: 80%;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 20px;
+    border-radius: 50px;
+}
+.skills {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.logo-img {
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    background-color: transparent;
+}
+.h1-skill {
+    background-color: rgb(105, 77, 77);
+    margin-right: 300px;
+    margin-left: 300px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+.project {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+
+}
+.project-card {
+    height: 500px;
+    width: 400px;
+    background-color: rgb(162, 160, 160);
+    border-radius: 50px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: 4px solid white;
+}
+.h1-projects {
+    background-color: rgb(105, 77, 77);
+    margin-right: 300px;
+    margin-left: 300px;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.pf-logo {
+    flex-wrap: wrap;
+    width: 200px;
+    height: 100px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    background-color: transparent;
+    border-radius: 20px;
+}
+.p-project {
+    font-size: 22px; 
+    float: top; 
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+.textarea {
+    margin-left: 120px;
+    margin-right: 100px;
+    background-color: rgb(141, 188, 141);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.experience  {
+    text-align: center;
+    align-items: center;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+
+}
+.contact-card {
+    height: 300px;
+    width: 250px;
+    background-color: rgb(167, 135, 135);
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+   
+    box-shadow: 10px 8px 16px 10px rgba(107, 199, 235, 0.2);
+
+}
+
+    
+
